@@ -88,7 +88,7 @@
             this.dgvProducts.Name = "dgvProducts";
             this.dgvProducts.RowHeadersWidth = 51;
             this.dgvProducts.RowTemplate.Height = 29;
-            this.dgvProducts.Size = new System.Drawing.Size(673, 472);
+            this.dgvProducts.Size = new System.Drawing.Size(575, 297);
             this.dgvProducts.TabIndex = 5;
             // 
             // txtProductName
@@ -102,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 589);
+            this.ClientSize = new System.Drawing.Size(599, 414);
             this.Controls.Add(this.txtProductName);
             this.Controls.Add(this.dgvProducts);
             this.Controls.Add(this.btnAdd);

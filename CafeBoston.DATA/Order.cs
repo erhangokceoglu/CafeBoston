@@ -14,7 +14,7 @@ namespace CafeBoston.DATA
 
         public DateTime? EndTime { get; set; }
 
-        public List<OrderDetail> OrderDetails { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }=new List<OrderDetail>();    
 
         public string TotalPriceTRY=> TotalPrice().ToString("c2");
 
