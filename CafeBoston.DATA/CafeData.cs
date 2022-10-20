@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace CafeBoston.DATA
     {
         public int TableCount { get; set; } = 20;
 
-        public  List<Product> Products{ get; set; } = new List<Product>();
+        public List<Product> Products{ get; set; } = new List<Product>();
 
         public List<Order> ActiveOrders { get; set; } =new List<Order>();
 
